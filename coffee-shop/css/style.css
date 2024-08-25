@@ -1,0 +1,127 @@
+.container{
+height: 100vh;
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(/images/background.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.cs{
+  color: white;
+  margin-left: 55px;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: "Nerko One", cursive;
+}
+
+.fe{
+  color: red;
+}
+
+.nav-bar{
+  margin-top: 50px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.a{
+  height: fit-content;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .2s;
+}
+.a:hover{
+  color: red;
+  font-size: 18px;
+}
+
+.a:active{
+  color: blanchedalmond;
+}
+
+
+.logo{
+  height: 100px;
+  border-radius: 75px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.content{
+  margin-top: 100px;
+  margin-left: 75px;
+}
+
+.p1{
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.cf{
+  color: red;
+}
+
+.p2{
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.p3{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:bisque;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.sn{
+  color: #fff;
+  background-color: rgb(223, 82, 82);
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 25px;
+  padding-top: 8px ;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  transition: 0.2s;
+}
+
+.sn:hover{
+  color: rgb(231, 130, 47);
+  background-color: bisque; 
+  cursor: pointer;
+}
+
+.sn:active{
+  opacity: 0.7;
+}
+
+.pe{
+  padding-top: 110px;
+  padding-left: 50px;
+  color:rgba(231, 217, 197, 0.836);
+  font-family: Qwitcher Grypen, cursive;
+  font-size: 35px;
+}
